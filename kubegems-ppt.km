@@ -1,0 +1,543 @@
+{
+    "root": {
+        "data": {
+            "id": "cf8k0myvqy00",
+            "created": 1635171774558,
+            "text": "KubeGems大纲",
+            "expandState": "expand",
+            "priority": 1
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cf8k1ggk5g80",
+                    "created": 1635171838753,
+                    "text": "达闼容器化下现状",
+                    "layout_fish-bone-master_offset": {
+                        "x": -33,
+                        "y": 5
+                    },
+                    "layout_mind_offset": {
+                        "x": 68,
+                        "y": -128
+                    },
+                    "priority": 2,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf8k1vro0480",
+                            "created": 1635171872076,
+                            "text": "面临的问题",
+                            "layout_fish-bone-master_offset": {
+                                "x": 30,
+                                "y": 12
+                            },
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8yvcb7nkw0",
+                                    "created": 1635213676186,
+                                    "text": "环境负载"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8yvfm91fc0",
+                                    "created": 1635213683384,
+                                    "text": "资源无法量化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf8z3z1enbc0",
+                            "created": 1635214352573,
+                            "text": "挑战",
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8z420x8yo0",
+                                    "created": 1635214359074,
+                                    "text": " 计算资源无序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8z49rw1k80",
+                                    "created": 1635214375942,
+                                    "text": "显卡虚拟化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8z4lql06w0",
+                                    "created": 1635214401984,
+                                    "text": "应用管理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf8k20s1uzk0",
+                    "created": 1635171882984,
+                    "text": "KubeGems介绍",
+                    "layout_mind_offset": {
+                        "x": 26,
+                        "y": -51
+                    },
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf8z5k70qk80",
+                            "created": 1635214476989,
+                            "text": "整体架构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf8z5o99h3k0",
+                            "created": 1635214485831,
+                            "text": "产品生态"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf8z5ywps800",
+                            "created": 1635214509017,
+                            "text": "主要功能"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf8k3p5mi6g0",
+                    "created": 1635172014411,
+                    "text": "设计/架构",
+                    "layout_fish-bone-master_offset": {
+                        "x": 97,
+                        "y": 10
+                    },
+                    "layout_mind_offset": {
+                        "x": 12,
+                        "y": 22
+                    },
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf8kacfpebk0",
+                            "created": 1635172535272,
+                            "text": "应用商店与中间件标准化",
+                            "layout_left_offset": {
+                                "x": -39,
+                                "y": 117
+                            },
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8l3k70q540",
+                                    "created": 1635174824722,
+                                    "text": "KubeGems 中间件"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l4b70k4g0",
+                                    "created": 1635174883495,
+                                    "text": "用户应用管理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf8l1n7tm8w0",
+                            "created": 1635174674572,
+                            "text": "面向云原生的多集群多租户架构",
+                            "layout_left_offset": {
+                                "x": 3,
+                                "y": -162
+                            },
+                            "expandState": "expand",
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8k6ubzljs0",
+                                    "created": 1635172260773,
+                                    "text": "多元兼容的存储架构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8k5kjg5y80",
+                                    "created": 1635172161092,
+                                    "text": "基于 Calico 的3 层隔离网络"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l1ybwt5s0",
+                                    "created": 1635174698764,
+                                    "text": "合理的租户资源设计"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf8l4tn76ug0",
+                            "created": 1635174923655,
+                            "text": "丰富的云原生生态",
+                            "layout_left_offset": {
+                                "x": -26,
+                                "y": -17
+                            },
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8l4y5ys9c0",
+                                    "created": 1635174933497,
+                                    "text": "内置 Prometheus监控告警全覆盖"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l5lm4fa00",
+                                    "created": 1635174984540,
+                                    "text": "全路径的日志采集存储架构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l70sdkuw0",
+                                    "created": 1635175095934,
+                                    "text": "腾讯云 GPU 虚拟化驱动"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l781dppk0",
+                                    "created": 1635175111716,
+                                    "text": "基于策略的蓝绿/灰度发布引擎",
+                                    "layout_left_offset": {
+                                        "x": -10,
+                                        "y": 5
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8l9s7vt740",
+                                    "created": 1635175312373,
+                                    "text": "API 网关"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf8l9dur7gg0",
+                            "created": 1635175281104,
+                            "text": "更友好的运维化管理",
+                            "layout_left_offset": {
+                                "x": -30,
+                                "y": 36
+                            },
+                            "expandState": "expand",
+                            "priority": 3,
+                            "progress": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8l9pa82bs0",
+                                    "created": 1635175305984,
+                                    "text": "容器运行时全生命周期管理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8la93xtoo0",
+                                    "created": 1635175349140,
+                                    "text": "集群实时状态"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8lal5v7jc0",
+                                    "created": 1635175375378,
+                                    "text": "集群事件/操作审计"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8lbdbpizc0",
+                                    "created": 1635175436681,
+                                    "text": "插件化管理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8lcnudu4g0",
+                                    "created": 1635175537942,
+                                    "text": "自动化部署",
+                                    "layout_left_offset": {
+                                        "x": 17,
+                                        "y": 17
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf8k9ahqk6w0",
+                    "created": 1635172452677,
+                    "text": "产品规划",
+                    "layout_mind_offset": {
+                        "x": 72,
+                        "y": -42
+                    },
+                    "expandState": "expand",
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf8k9sal5880",
+                            "created": 1635172491427,
+                            "text": "微服务",
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8kwzk0wbk0",
+                                    "created": 1635174309611,
+                                    "text": "更细粒度的发布策略"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8kxbyseu80",
+                                    "created": 1635174336625,
+                                    "text": "更完整的应用拓扑结构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8kytkkqhc0",
+                                    "created": 1635174453312,
+                                    "text": "更全面的APM 监控"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf8k4b84mjk0",
+                            "created": 1635172062452,
+                            "text": "KubeGems 与 Xaas",
+                            "layout_fish-bone-master_offset": {
+                                "x": 175,
+                                "y": 5
+                            },
+                            "expandState": "expand",
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf8k7qkt6680",
+                                    "created": 1635172330963,
+                                    "text": "Xaas的理解"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8kxj5n2ao0",
+                                    "created": 1635174352276,
+                                    "text": "虚拟空间",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf8ky1duudc0",
+                                            "created": 1635174391955,
+                                            "text": "Infrastructure"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8k8ccncw80",
+                                            "created": 1635172378359,
+                                            "text": "HariX"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8kxwoc0jc0",
+                                            "created": 1635174381705,
+                                            "text": "AI "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8kyfaj6hk0",
+                                            "created": 1635174422229,
+                                            "text": "API-Gateway"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cf8kzm10l8g0",
+                                    "created": 1635174515256,
+                                    "text": "安全"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf8kzqz75ps0",
+                                            "created": 1635174526030,
+                                            "text": "网络"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8l0a6uks80",
+                                            "created": 1635174567851,
+                                            "text": "容器"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8l07800bk0",
+                                            "created": 1635174561390,
+                                            "text": "应用"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf8l8vkehfc0",
+                                            "created": 1635175241296,
+                                            "text": "证书",
+                                            "layout_left_offset": {
+                                                "x": 0,
+                                                "y": 2
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf8k3un7xjc0",
+                    "created": 1635172026359,
+                    "text": "运营推广",
+                    "layout_fish-bone-master_offset": {
+                        "x": 40,
+                        "y": -4
+                    },
+                    "layout_mind_offset": {
+                        "x": -110,
+                        "y": -29
+                    },
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf8k70c8x9s0",
+                            "created": 1635172273849,
+                            "text": "秉持开源精神"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf8k79c1uag0",
+                            "created": 1635172293428,
+                            "text": "文档 / 特别兴趣小组"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf8k7ksfg5s0",
+                            "created": 1635172318363,
+                            "text": "金地容器云"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

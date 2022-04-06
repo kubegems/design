@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="lLp7MHgZGJp8dcUGxH-X" name="第 1 页">
+        <mxGraphModel dx="1118" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+                    <mxGeometry x="70" y="300" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="invalid token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="30" target="27">
+                    <mxGeometry x="-0.8771" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="323" y="324"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="30" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=0;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=11;fontColor=#9E9E9E;align=center;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="210" width="166" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font color=&quot;#000000&quot;&gt;Authenticate&lt;/font&gt;&lt;br&gt;认证模块&lt;hr&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;KubeGems Engine&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=top;spacingLeft=5;fontColor=#999999;fontSize=12;spacingTop=-8;" vertex="1" parent="30">
+                    <mxGeometry width="44" height="39" relative="1" as="geometry">
+                        <mxPoint x="5" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=1.081;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="32" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="32" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="write audit log async" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50">
+                    <mxGeometry x="-0.1172" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=0;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=11;fontColor=#9E9E9E;align=center;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="390" width="166" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font color=&quot;#000000&quot;&gt;Audit&lt;/font&gt;&lt;br&gt;审计模块&lt;hr&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;KubeGems Engine&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=top;spacingLeft=5;fontColor=#999999;fontSize=12;spacingTop=-8;" vertex="1" parent="32">
+                    <mxGeometry width="44" height="39" relative="1" as="geometry">
+                        <mxPoint x="5" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="noperm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="36" target="27">
+                    <mxGeometry x="-0.9339" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="533" y="324"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=0;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=11;fontColor=#9E9E9E;align=center;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="210" width="166" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font color=&quot;#000000&quot;&gt;Authrization&lt;/font&gt;&lt;br&gt;鉴权模块&lt;hr&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;KubeGems Engine&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=top;spacingLeft=5;fontColor=#999999;fontSize=12;spacingTop=-8;" vertex="1" parent="36">
+                    <mxGeometry width="44" height="39" relative="1" as="geometry">
+                        <mxPoint x="5" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.0893" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="40" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="HANDLERS&lt;br&gt;&lt;br&gt;setContextAuditData" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=0;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=11;fontColor=#9E9E9E;align=center;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="657" y="250" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
+                    <mxGeometry x="662" y="385" width="160" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

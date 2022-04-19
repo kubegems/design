@@ -1,0 +1,259 @@
+{
+    "root": {
+        "data": {
+            "id": "cjdd1uwsnk80",
+            "created": 1650284555984,
+            "text": "Observability"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cjdd23w52z40",
+                    "created": 1650284575536,
+                    "text": "概览",
+                    "layout_right_offset": {
+                        "x": 35,
+                        "y": 103.5000012914339
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cjdd269l0lk0",
+                    "created": 1650284580702,
+                    "text": "接入中心",
+                    "layout_right_offset": {
+                        "x": 160,
+                        "y": 103.00000099341071
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjdd2a273fc0",
+                            "created": 1650284588962,
+                            "text": "中间件"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjdf4jkfjpk0",
+                                    "created": 1650290408604,
+                                    "text": "exporter"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cjdd2c6txbk0",
+                            "created": 1650284593596,
+                            "text": "用户应用"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjdd2f2z8g80",
+                    "created": 1650284599894,
+                    "text": "配置中心",
+                    "layout_right_offset": {
+                        "x": 184.16666650109818,
+                        "y": 170.33332108126802
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjddby1tlww0",
+                            "created": 1650285346460,
+                            "text": "日志",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": -6,
+                                "y": 4
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjddcqmecuo0",
+                                    "created": 1650285408654,
+                                    "text": "Flows"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cjddct54eog0",
+                                    "created": 1650285414140,
+                                    "text": "Outputs"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cjddczxa7340",
+                                    "created": 1650285428903,
+                                    "text": "Log AlertRules"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cjddc1gtaq00",
+                            "created": 1650285353897,
+                            "text": "监控"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjddc4pr8tc0",
+                                    "created": 1650285360968,
+                                    "text": "ServiceMonitor"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cjddc7pwuao0",
+                                    "created": 1650285367508,
+                                    "text": "AlertRules"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cjddd7d6s4o0",
+                            "created": 1650285445102,
+                            "text": "告警渠道"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjdddbjupi00",
+                                    "created": 1650285454213,
+                                    "text": "Mail"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cjdddegs7rs0",
+                                    "created": 1650285460557,
+                                    "text": "Webhook"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjdd2j8fuio0",
+                    "created": 1650284608931,
+                    "text": "告警中心",
+                    "layout_right_offset": {
+                        "x": 6.50000605980523,
+                        "y": 84.49998817841276
+                    },
+                    "layout_mind_offset": {
+                        "x": 56.66666441493567,
+                        "y": -11.666666203075039
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjdddwfbiko0",
+                            "created": 1650285499651,
+                            "text": "概览"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjdde5f0b4w0",
+                            "created": 1650285519223,
+                            "text": "实时告警"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjdde000whs0",
+                            "created": 1650285507433,
+                            "text": "告警历史"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjdd2mvv3qo0",
+                    "created": 1650284616878,
+                    "text": "可视化",
+                    "layout_mind_offset": {
+                        "x": 256.66665646765006,
+                        "y": 93.33332962460008
+                    },
+                    "layout_right_offset": {
+                        "x": 35.166666103733974,
+                        "y": -443.1666510038911
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjddbmrqw800",
+                            "created": 1650285321906,
+                            "text": "Dashboard"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjdd2rpy7ag0",
+                            "created": 1650284627404,
+                            "text": "Metrics Explore"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjddaxbx2c00",
+                            "created": 1650285266530,
+                            "text": "Log Explore"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjddb2d10680",
+                            "created": 1650285277481,
+                            "text": "Trace Explore"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

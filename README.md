@@ -6,3 +6,5 @@
 思维导图文件 *.drwaio
 插件： Draw.io Integration
 
+PDF 文件 *.pdf
+插件： vscode-pdf

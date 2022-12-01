@@ -1,0 +1,294 @@
+{
+    "root": {
+        "data": {
+            "id": "coqjnwutwt40",
+            "created": 1669904282527,
+            "text": "KubeGems V1.23\nEdge 边缘设备能力"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "coqjo39jwf40",
+                    "created": 1669904296478,
+                    "text": "设备注册",
+                    "expandState": "expand",
+                    "layout": null,
+                    "layout_right_offset": {
+                        "x": 89,
+                        "y": 147
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coqjoa308v40",
+                            "created": 1669904311319,
+                            "text": "隧道管理",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjrbgdll40",
+                                    "created": 1669904549398,
+                                    "text": "Edge-Agent",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjrhopqk00",
+                                    "created": 1669904562962,
+                                    "text": "Edge-Hub",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjt3fsswo0",
+                                    "created": 1669904688676,
+                                    "text": "k8s Proxy API",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "coqjqmmpj880",
+                            "created": 1669904495360,
+                            "text": "设备心跳上报",
+                            "layout": null,
+                            "progress": 5
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coqjqrvrw940",
+                            "created": 1669904506793,
+                            "text": "设备管理",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjrsrhbhc0",
+                                    "created": 1669904587074,
+                                    "text": "设备（K3S）注册管理",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjs0xtd8g0",
+                                    "created": 1669904604871,
+                                    "text": "隧道传输加密",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjs8vupcw0",
+                                    "created": 1669904622167,
+                                    "text": "设备认证",
+                                    "layout": null,
+                                    "progress": 6
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "coqjq0eageg0",
+                    "created": 1669904446963,
+                    "text": "API",
+                    "layout": null,
+                    "layout_right_offset": {
+                        "x": -78,
+                        "y": -300
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coqjtuevz5s0",
+                            "created": 1669904747394,
+                            "text": "Edge-Server",
+                            "layout": null,
+                            "progress": 8
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "coqjpidf25k0",
+                    "created": 1669904407727,
+                    "text": "运行时管理",
+                    "layout_mind_offset": {
+                        "x": -165,
+                        "y": 130
+                    },
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coqjub18t4o0",
+                            "created": 1669904783575,
+                            "text": "K3S 状态上报",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coqjvd2u9600",
+                            "created": 1669904866389,
+                            "text": "容器运行时功能",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjviwcvbc0",
+                                    "created": 1669904879058,
+                                    "text": "CURD",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjvlfst480",
+                                    "created": 1669904884587,
+                                    "text": "日志",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "coqjw1z0gi00",
+                                    "created": 1669904920577,
+                                    "text": "控制台",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "coqjw519kag0",
+                            "created": 1669904927244,
+                            "text": "Workload",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjw9tgtcw0",
+                                    "created": 1669904937656,
+                                    "text": "CURD",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "coqjwljc1eg0",
+                            "created": 1669904963165,
+                            "text": "存储卷",
+                            "layout": null,
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjwojwdig0",
+                                    "created": 1669904969729,
+                                    "text": "CURD",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "coqk172ab3s0",
+                            "created": 1669905323480,
+                            "text": "监控",
+                            "progress": null,
+                            "priority": 1,
+                            "layout": null,
+                            "note": "选填\n监控采用 OpenTelemetry 统一上报数据"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "coqjtyk5e4g0",
+                    "created": 1669904756420,
+                    "text": "发布任务管理",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coqju2sa50g0",
+                            "created": 1669904765618,
+                            "text": "Edge-Task",
+                            "layout": null,
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "coqjzt2hrbk0",
+                                    "created": 1669905214653,
+                                    "text": "异步并发",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "coqju7dzgwg0",
+                            "created": 1669904775638,
+                            "text": "消息队列",
+                            "layout": null,
+                            "progress": 1
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "snow",
+    "version": "1.4.43"
+}

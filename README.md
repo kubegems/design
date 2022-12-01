@@ -1,10 +1,16 @@
-一些 kubgems 的图片
+一些 KubeGems 的设计图片，使用 Vscode 绘制，使用需安装如下插件
 
-思维导图文件 *.km
-插件： vscode-mindmap
+### Mind-Map
 
-思维导图文件 *.drwaio
-插件： Draw.io Integration
+- 文件后缀 *.km
+- 插件名称   vscode-mindmap
 
-PDF 文件 *.pdf
-插件： vscode-pdf
+### Architecture / Flow
+
+- 文件后缀 *.drwaio
+- 插件名称   Draw.io Integration
+
+### PDF
+
+- 文件后缀 *.pdf
+- 插件名称   vscode-pdf

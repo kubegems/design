@@ -3,7 +3,8 @@
         "data": {
             "id": "coqjnwutwt40",
             "created": 1669904282527,
-            "text": "KubeGems V1.23\nEdge 边缘设备能力"
+            "text": "KubeGems V1.23\nEdge 边缘设备能力",
+            "expandState": "expand"
         },
         "children": [
             {
@@ -54,6 +55,14 @@
                                     "layout": null
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cora4lwx6nc0",
+                                    "created": 1669978939757,
+                                    "text": "重试机制"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -61,11 +70,37 @@
                         "data": {
                             "id": "coqjqmmpj880",
                             "created": 1669904495360,
-                            "text": "设备心跳上报",
+                            "text": "心跳",
                             "layout": null,
-                            "progress": 5
+                            "progress": 6
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cora4c1q9k00",
+                                    "created": 1669978918280,
+                                    "text": "隧道心跳"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cora4ezj7cw0",
+                                    "created": 1669978924678,
+                                    "text": "k3s集群状态"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cora563a7ls0",
+                                    "created": 1669978983677,
+                                    "text": "集群事件",
+                                    "priority": 1
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -73,15 +108,16 @@
                             "created": 1669904506793,
                             "text": "设备管理",
                             "layout": null,
-                            "progress": 9
+                            "progress": 7
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "coqjrsrhbhc0",
                                     "created": 1669904587074,
-                                    "text": "设备（K3S）注册管理",
-                                    "layout": null
+                                    "text": "设备（K3S）注册",
+                                    "layout": null,
+                                    "progress": 9
                                 },
                                 "children": []
                             },
@@ -90,19 +126,38 @@
                                     "id": "coqjs0xtd8g0",
                                     "created": 1669904604871,
                                     "text": "隧道传输加密",
-                                    "layout": null
+                                    "layout": null,
+                                    "progress": 9
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cora6m667mo0",
+                                            "created": 1669979097045,
+                                            "text": "tls 证书管理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
                                     "id": "coqjs8vupcw0",
                                     "created": 1669904622167,
-                                    "text": "设备认证",
+                                    "text": "设备身份认证",
                                     "layout": null,
-                                    "progress": 6
+                                    "progress": 2
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cora63fbqm80",
+                                            "created": 1669979056239,
+                                            "text": "provider"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -231,18 +286,6 @@
                                 "children": []
                             }
                         ]
-                    },
-                    {
-                        "data": {
-                            "id": "coqk172ab3s0",
-                            "created": 1669905323480,
-                            "text": "监控",
-                            "progress": null,
-                            "priority": 1,
-                            "layout": null,
-                            "note": "选填\n监控采用 OpenTelemetry 统一上报数据"
-                        },
-                        "children": []
                     }
                 ]
             },
@@ -283,6 +326,78 @@
                             "progress": 1
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "coqk172ab3s0",
+                    "created": 1669905323480,
+                    "text": "监控",
+                    "progress": null,
+                    "priority": 1,
+                    "layout": null,
+                    "note": "选填\n监控采用 OpenTelemetry 统一上报数据",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cora8ahoxuw0",
+                            "created": 1669979228348,
+                            "text": "数据通路"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cora7ii2cio0",
+                            "created": 1669979167421,
+                            "text": "监控"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cora7tp9wrs0",
+                                    "created": 1669979191801,
+                                    "text": "设备"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cora80e340o0",
+                                    "created": 1669979206363,
+                                    "text": "容器"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cora81w4e340",
+                                    "created": 1669979209630,
+                                    "text": "网络"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cora84ryysg0",
+                            "created": 1669979215909,
+                            "text": "日志"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cora8gdiwxk0",
+                                    "created": 1669979241157,
+                                    "text": "应用日志"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }

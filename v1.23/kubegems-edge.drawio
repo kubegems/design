@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Duv2i7YLkGx_jYrbObdH" name="第 1 页">
-        <mxGraphModel dx="3329" dy="2007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2863" dy="1977" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -809,27 +809,24 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="707" value="是否配置初始化&lt;br /&gt;token/certs" style="rhombus;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="Diamond" vertex="1">
-                    <mxGeometry x="-423.5" y="335" width="106.5" height="110" as="geometry"/>
+                    <mxGeometry x="-423.5" y="330" width="106.5" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="708" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="710" target="711" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="709" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="710" target="707" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="710" value="等待初始化token配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="RoundedRectangle" vertex="1">
-                    <mxGeometry x="-275" y="360" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="711" value="Watch configmap/secret" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" diagramCategory="general" diagramName="Document" vertex="1">
-                    <mxGeometry x="-105" y="360" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="712" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" target="716" edge="1">
+                <mxCell id="762" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="710" target="707" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-369.25" y="705" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="-194" y="705"/>
+                            <mxPoint x="-214" y="322"/>
+                            <mxPoint x="-370" y="322"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="710" value="等待初始化token配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="RoundedRectangle" vertex="1">
+                    <mxGeometry x="-274" y="355" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="711" value="Watch configmap/secret" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" diagramCategory="general" diagramName="Document" vertex="1">
+                    <mxGeometry x="-98" y="355" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="714" target="720" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -838,37 +835,43 @@
                     <mxGeometry x="-429.25" y="495" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="715" value="启动agent API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="RoundedRectangle" vertex="1">
-                    <mxGeometry x="-429.25" y="780" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-429.25" y="787" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="716" value="启动代理隧道" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="RoundedRectangle" vertex="1">
                     <mxGeometry x="-254" y="783" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="721" target="714" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-600" y="815" as="sourcePoint"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="718" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="720" target="715" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-289.25" y="765" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="719" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="720" target="723" edge="1">
+                <mxCell id="758" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="723" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-429.25" y="785" as="targetPoint"/>
+                        <mxPoint x="-369" y="725" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="761" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="720" target="716" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-369" y="758"/>
+                            <mxPoint x="-194" y="758"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="720" value="&lt;span style&gt;检查 hub 中是否成功注册&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="Diamond" vertex="1">
                     <mxGeometry x="-419.25" y="605" width="100" height="100" as="geometry"/>
                 </mxCell>
+                <mxCell id="760" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="721" target="714" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="721" value="&lt;span style&gt;更新token/certs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="RoundedRectangle" vertex="1">
                     <mxGeometry x="-665" y="625" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="722" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="723" target="721" edge="1">
+                <mxCell id="759" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="723" target="721" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="723" value="&lt;span style&gt;watch token/certs&lt;/span&gt;&lt;br style /&gt;&lt;span style&gt;更新&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" diagramCategory="general" diagramName="Diamond" vertex="1">
-                    <mxGeometry x="-569" y="773" width="80" height="80" as="geometry"/>
+                    <mxGeometry x="-567" y="770" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="724" value="&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;b&gt;Edge Agent启动流程&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=22;strokeColor=#5C5C5C;strokeWidth=0;fillColor=#FFFFFF;align=center;opacity=0;fontFamily=Lucida Console;fontColor=#AAAAAA;" parent="1" vertex="1">
                     <mxGeometry x="-487" y="123" width="250" height="60" as="geometry"/>
@@ -970,6 +973,73 @@
                 </mxCell>
                 <mxCell id="756" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Kubernetes API&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-1503.0033333333336" y="-625.9977777777779" width="103" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="1145" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#0066CC;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="1126" target="1129" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1126" value="Edge Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="322" y="1091" width="106" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="1127" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="1129" target="1132" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1153" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#0066CC;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="1129" target="1140" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1129" value="Edge Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="698" y="1091" width="124" height="131" as="geometry"/>
+                </mxCell>
+                <mxCell id="1130" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;startArrow=classic;startFill=1;" parent="1" source="1132" target="1135" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1131" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=13;startArrow=none;startFill=0;" parent="1" source="1132" target="1129" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1132" value="Device Indentify Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="698" y="934" width="124" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="1133" value="1. 携带 bootstrap token 或&lt;br&gt;&amp;nbsp;Tls 证书发起 GRPC 连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="1083" width="160" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="1134" value="3.内部 Indentify拦截请求并根据&lt;br&gt;provider配置准备发起验证请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#0066CC;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="1026" width="191" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="1135" value="Indentify&lt;br&gt;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="938" y="935" width="96" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="1136" value="4. 验证设备身份" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#0066CC;" parent="1" vertex="1">
+                    <mxGeometry x="825.5" y="945" width="102" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1137" value="5.返回设备身份" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#0066CC;" parent="1" vertex="1">
+                    <mxGeometry x="792" y="1038" width="99" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1139" value="6. 建立 GPRC 隧道, 数据传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="1157" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1140" value="Edge Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="938" y="1089" width="103" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="1141" value="7.&amp;nbsp; 上报设备和隧道心跳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="1185" width="145" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1142" value="8.更新设备状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="827" y="1131" width="99" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1149" value="2.&amp;nbsp; 发送设备信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="582" y="1122" width="106" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1151" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#0066CC;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="427.99999999999955" y="1178.2200000000005" as="sourcePoint"/>
+                        <mxPoint x="697.3880000000004" y="1178.997" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="563" y="1178"/>
+                            <mxPoint x="697" y="1179"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1154" value="9. 数据传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="840.5" y="1165" width="76" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

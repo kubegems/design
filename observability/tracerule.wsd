@@ -1,0 +1,42 @@
+@startuml tracerule
+actor user
+box "Opentelemetry" #LightBlue
+participant receiver
+queue processors
+participant jaegerexporter
+end box
+
+box "Jaeger" #LightYellow
+participant jaegercollector
+database elasticsearch
+end box
+
+box Kubegems
+control tracecontroller #LightGreen
+note over tracecontroller #LightPink
+evaluate alert 
+by tracerule CRD,
+then send alerts 
+via alertmanager api:
+POST /api/v2/alerts
+end note
+control api #LightBlue
+database mysql
+end box
+participant alertmanager
+
+autonumber
+user -> receiver: send traces
+receiver -> processors: process traces 
+processors -> jaegerexporter: send traces
+jaegerexporter -> jaegercollector: send traces to jaeger
+jaegercollector -> elasticsearch: save traces
+tracecontroller --> elasticsearch: query trace by tracerule CRD
+
+autonumber "<font color=red>0"
+user -> api: config trace alert rules
+api -> mysql: save trace\nalert rules
+api -> tracecontroller: set how to trigger\nalert in k8s\nby tracerule CRD
+api -> alertmanager: set receiver and route by\nalertmanagerconfig CRD
+alertmanager -> user: send alerts by configured trace alert rules
+@enduml

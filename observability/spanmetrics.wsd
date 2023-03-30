@@ -1,0 +1,29 @@
+@startuml spanmetrics
+autonumber
+actor user
+box "Opentelemetry" #LightBlue
+participant receiver
+queue spanmetrics #LightGreen
+participant prometheusexporter #Yellow
+end box
+database prometheus
+participant alertmanager
+
+user -> receiver: send traces
+receiver -> spanmetrics: parse traces \nto metrics
+spanmetrics -> prometheusexporter: send metrics
+prometheus --> prometheusexporter: scrape metrics
+prometheus -> alertmanager: evaluate and \nsend alerts
+alertmanager -> user: send alerts by configured trace alert rules
+
+autonumber "<font color=red>0"
+box Kubegems
+control api
+database mysql
+end box
+user -> api: config trace alert rules
+api -> mysql: save trace\nalert rules
+api -> prometheusexporter: set how to trigger alert by prometheusrule CRD
+api -> alertmanager: config receiver and route by\nalertmanagerconfig CRD
+alertmanager -> user: send alerts by configured trace alert rules
+@enduml

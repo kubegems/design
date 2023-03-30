@@ -1,0 +1,33 @@
+@startuml alertmanagerexporter
+autonumber
+actor user
+box "Opentelemetry" #LightBlue
+participant receiver
+queue filterprocessor #LightGreen
+participant alertmanagerexporter #Yellow
+note over alertmanagerexporter #LightPink
+we need to develop this
+component in opentelemetry 
+end note
+end box
+participant alertmanager
+
+user -> receiver: send traces
+receiver -> filterprocessor: process traces 
+note right: config which trace\nis error here
+filterprocessor -> alertmanagerexporter: include or exclude traces
+note right: send by alertmanager api:\nPOST /api/v2/alerts
+alertmanagerexporter -> alertmanager: send alerts to alertmanager
+note right: use rules in \nalertmanagerconfig\nto send alerts
+
+autonumber "<font color=red>0"
+box Kubegems
+control api
+database mysql
+endbox
+user -> api: config trace alert rules
+api -> mysql: save trace\nalert rules
+api -> filterprocessor: set how to trigger alert in opentelemetry config
+api -> alertmanager: set receiver and route by\nalertmanagerconfig CRD
+alertmanager -> user: send alerts by configured trace alert rules
+@enduml

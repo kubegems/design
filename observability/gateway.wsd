@@ -1,0 +1,14 @@
+@startuml gateway
+
+actor user
+participant kubegems_controller
+participant ingress_nginx_operator
+participant ingress_nginx_controller
+
+user -> kubegems_controller: create tenantgateway CRD
+note left kubegems_controller: tgw is cluster resource\no namespace
+kubegems_controller -> ingress_nginx_operator: reconcile to create nginxingresscontrollers CRD
+note left ingress_nginx_operator: all nginxingresscontrollers is\nin namespace kubegems-gateway
+ingress_nginx_operator -> ingress_nginx_controller: create ingress_nginx_controller deployment and related resources
+
+@enduml

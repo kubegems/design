@@ -1,0 +1,46 @@
+@startuml monitor
+cloud KubernetetsCluster #LightBlue {
+    [apiserver]
+    [kubelet]
+    node node
+}
+
+card PrometheusStack #LightPink {
+    component Exporters {
+        [kube_state_metrics]
+        [node_exporter]     
+        [kubelet_buildin]   
+    }
+    database prometheus #OrangeRed
+    [alertmanager] #LightYellow
+}
+
+package Kubegems #AliceBlue {
+    [dashboard]
+    [api] #LightGreen
+    database mysql
+    queue msgbus
+    [worker]
+    [agent]
+}
+
+kube_state_metrics -down-> apiserver: export k8s resource metrics
+node_exporter -down-> node: export node metrics
+kubelet_buildin -down-> kubelet: export kubelet and container metrics
+
+prometheus -down-> kube_state_metrics: scrape
+prometheus -down-> node_exporter: scrape
+prometheus -down-> kubelet_buildin: scrape
+prometheus -right-> alertmanager: evaluate and send alerts
+
+dashboard -down-> api
+api -right-> mysql: save alert rules, dashboards, templates...
+api -down-> prometheus: query metrics and\nconfig alert by prometheusrule
+api -down-> alertmanager: config alert route、\nreceiver by alertmanagerconfig
+worker -left-> mysql: sync alert rules in mysql
+worker -down-> PrometheusStack: sync alert rules's CRD\nand evaluate if alert rule is correct
+alertmanager -up-> agent: send alert by agent's default webhook api
+agent -left-> msgbus: send alerts by websocket
+dashboard -> msgbus: show realtime alerts by websocket
+msgbus -down-> mysql: save alerts
+@enduml

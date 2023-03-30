@@ -1,0 +1,57 @@
+@startuml monitor
+cloud KubernetetsCluster #LightBlue {
+    node node1{
+        [containers1]
+        folder logs1
+        [fluentbit1]
+    }
+    node node2{
+        [containers2]
+        folder logs2
+        [fluentbit2]
+    }
+    node node3{
+        [containers3]
+        folder logs3
+        [fluentbit3]
+    }
+    queue fluentd #SkyBlue
+}
+
+database loki #Pink
+[alertmanager] #LightYellow
+
+package Kubegems #AliceBlue {
+    [dashboard]
+    [api] #LightGreen
+    database mysql
+    queue msgbus
+    [worker]
+    [agent]
+}
+
+containers1 -up-> logs1: output logs to console
+containers2 -up-> logs2: output logs to console
+containers3 -up-> logs3: output logs to console
+fluentbit1 -down-> logs1: mount and scrape logs
+fluentbit2 -down-> logs2: mount and scrape logs
+fluentbit3 -down-> logs3: mount and scrape logs
+fluentbit1 -up-> fluentd: relabel and output logs
+fluentbit2 -up-> fluentd: relabel and output logs
+fluentbit3 -up-> fluentd: relabel and output logs
+fluentd -up-> loki: filter and send logs
+
+loki -right-> alertmanager: evaluate and send alerts
+
+dashboard -down-> api
+api -right-> mysql: save alert rules
+api -down-> loki: query logs and\nconfig alert
+api -down-> alertmanager: config alert route、\nreceiver by alertmanagerconfig
+worker -left-> mysql: sync alert rules in mysql
+worker -down-> loki: sync alert rules's CRD\nand evaluate if alert rule is correct
+alertmanager -up-> agent: send alert by agent's default webhook api
+agent -left-> msgbus: send alerts by websocket
+dashboard -> msgbus: show realtime alerts by websocket
+msgbus -down-> mysql: save alerts
+@enduml
+
